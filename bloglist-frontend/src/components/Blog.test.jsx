@@ -26,7 +26,7 @@ test('renders content', () => {
   screen.debug(div)
 })
 
-test('url likes', async() => {
+test('display url&likes', async() => {
   const blog = {
     title: 'dune',
     author: 'abc',
@@ -50,7 +50,7 @@ test('url likes', async() => {
   screen.debug(div)
 })
 
-test('double like', async() => {
+test('click like twice', async() => {
   const blog = {
     title: 'dune',
     author: 'abc',
